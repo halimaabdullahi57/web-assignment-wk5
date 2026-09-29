@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpendWise - Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h1>SpendWise</h1>
+      <p>Personal Budget Tracker</p>
+      <nav>
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">Expenses</a>
+        <a href="#">Budget</a>
+        <a href="#">Savings</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header>
+        <div>
+          <h2>Budget Dashboard</h2>
+          <p>Track your budget and spending with JavaScript.</p>
+        </div>
+        <button id="budgetButton">Set Budget</button>
+      </header>
+
+      <section class="cards">
+        <div class="card">
+          <span>Budget</span>
+          <strong id="budgetDisplay">KES 0.00</strong>
+        </div>
+        <div class="card">
+          <span>Total Expenses</span>
+          <strong id="expenseDisplay">KES 0.00</strong>
+        </div>
+        <div class="card">
+          <span>Remaining Balance</span>
+          <strong id="balanceDisplay">KES 0.00</strong>
+        </div>
+      </section>
+
+      <section class="content-box">
+        <h3>Expense Categories</h3>
+        <div class="category-grid">
+          <div>Food <span>KES 0</span></div>
+          <div>Transport <span>KES 0</span></div>
+          <div>Rent <span>KES 0</span></div>
+          <div>Entertainment <span>KES 0</span></div>
+          <div>Savings <span>KES 0</span></div>
+          <div>Utilities <span>KES 0</span></div>
+        </div>
+      </section>
+
+      <section class="content-box">
+        <h3>JavaScript Output</h3>
+        <p>Open your browser Developer Tools → Console to see the labeled budget calculations.</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
